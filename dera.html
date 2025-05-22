@@ -1,0 +1,139 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dera - Fashion Store</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0; padding: 0;
+      background-color: #f5f5f5;
+      color: #333;
+    }
+    header {
+      background-color: #222;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      font-size: 2em;
+      font-weight: bold;
+    }
+    nav {
+      background-color: #444;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 10px 0;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    main {
+      max-width: 900px;
+      margin: 30px auto;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+    }
+    section {
+      margin-bottom: 40px;
+    }
+    h2 {
+      border-bottom: 2px solid #222;
+      padding-bottom: 8px;
+      margin-bottom: 15px;
+    }
+    ul.products {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    ul.products li {
+      background-color: #eee;
+      padding: 15px;
+      border-radius: 6px;
+      width: 200px;
+      text-align: center;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    }
+    footer {
+      background-color: #222;
+      color: #ccc;
+      text-align: center;
+      padding: 15px 10px;
+      margin-top: 40px;
+    }
+    .payments {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 10px;
+    }
+    .payment-method {
+      background-color: #444;
+      padding: 10px 20px;
+      border-radius: 20px;
+      color: #fff;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background-color 0.3s;
+      user-select: none;
+    }
+    .payment-method:hover {
+      background-color: #666;
+    }
+  </style>
+</head>
+<body>
+  <header>Dera Fashion Store</header>
+
+  <nav>
+    <a href="#mens-fashion">Men's Fashion</a>
+    <a href="#womens-fashion">Women's Fashion</a>
+    <a href="#payments">Payment Options</a>
+  </nav>
+
+  <main>
+    <section id="mens-fashion">
+      <h2>Men's Fashion</h2>
+      <ul class="products">
+        <li>T-Shirt</li>
+        <li>Jeans</li>
+        <li>Jacket</li>
+        <li>Shoes</li>
+      </ul>
+    </section>
+
+    <section id="womens-fashion">
+      <h2>Women's Fashion</h2>
+      <ul class="products">
+        <li>Dress</li>
+        <li>Skirt</li>
+        <li>Blouse</li>
+        <li>Heels</li>
+      </ul>
+    </section>
+
+    <section id="payments">
+      <h2>Payment Options</h2>
+      <div class="payments">
+        <div class="payment-method">Paytm</div>
+        <div class="payment-method">PhonePe</div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Dera Fashion Store. All rights reserved.
+  </footer>
+</body>
+</html>
